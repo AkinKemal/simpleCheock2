@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cheock-2</string>
+    <string name="lose">"LOSE"</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="sn_30">+30 sn</string>
+    <string name="reset">RESET</string>
+</resources>

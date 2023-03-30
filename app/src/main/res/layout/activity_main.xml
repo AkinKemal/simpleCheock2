@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color_01">
+
+    <Button
+        android:layout_weight="3"
+        android:id="@+id/player_one_timer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/player_1"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:rotationX="180"
+        android:rotationY="180"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            tools:ignore="NestedWeights"/>
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/change_time_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sn_30"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_weight="3"
+        android:id="@+id/player_two_timer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/player_2"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
